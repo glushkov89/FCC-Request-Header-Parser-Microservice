@@ -1,4 +1,10 @@
-# FCC-Request-Header-Parser-Microservice
-freeCodeCamp Apis and Microservices Projects - Request Header Parser Microservice https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/request-header-parser-microservice
+# API Project: Request Header Parser Microservice for freeCodeCamp
 
-https://www.freecodecamp.org/fcc8f20330d-0943-47a5-b3b1-824b1d91c95d
+### User stories:
+1. I can get the IP address, preferred languages (from header `Accept-Language`) and system infos (from header `User-Agent`) for my device.
+
+#### Example usage:
+* [base_url]/api/whoami
+
+#### Example output:
+* `{"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5","software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}`
